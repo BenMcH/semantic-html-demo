@@ -1,4 +1,6 @@
-import { useNavigate } from "remix";
+export const meta = () => ({
+  title: "Semantic UI",
+})
 
 export default function Index() {
   return (
